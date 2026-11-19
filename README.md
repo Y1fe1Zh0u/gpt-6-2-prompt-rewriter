@@ -5,7 +5,7 @@ A Codex skill that rewrites existing prompts for GPT-6.2 Astra and Sol using [Op
 Install in your project, then invoke `$gpt-6-2-prompt-rewriter` in Codex and paste a prompt. You can name Astra or Sol as the target.
 
 ```sh
-npx skills add Y1fe1Zh0u/gpt-6-2-prompt-rewriter --agent codex --yes
+npx skills add https://api.github.com/repos/Y1fe1Zh0u/gpt-6-2-prompt-rewriter/tarball/main --agent codex --yes
 ```
 
 一个面向 **GPT‑6.2 Astra 和 GPT‑6.2 Sol** 的 Codex Skill。给它一条已有 prompt，它会返回一版可直接复制的改写，并在需要时解释哪些修改会改变模型行为。默认做最小必要修改，保留原任务、输出格式和明确的权限边界。
